@@ -1,0 +1,277 @@
+body {
+  background-color:#eee4e1;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  color: #433E79;
+  margin: 0;
+
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  text-transform: uppercase;
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 100;
+  font-size: 80px;
+  text-align: justify-all;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+h2{
+  font-weight: lighter;
+  font-family: 'Cookie', cursive;
+  font-size: 40px;
+  margin-bottom: -10px;
+  text-align: center;
+  padding: 0px;
+}
+p{
+
+  max-width: 100%;
+}
+
+ol{
+  padding: 10px;
+  margin: 100;
+  line-height: 20px;
+  height: 0px, 0px;
+}
+
+ #profile-pic {
+  width: 600px;
+  box-shadow: -53px 31px 14px -16px rgba(0,0,0,0.58);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  max-width: 100% ;
+  border: 3.5mm ridge #9da3a4;
+  border-radius: 20px;
+ }
+
+ #RS {
+
+  padding: 0px;
+  width: 30%;
+  margin: 20px 10px 10px 370px;
+
+ }
+
+ #main-intro {
+  width: 800px;
+  margin-bottom: 100px;
+  text-align: center;
+  padding: 0px 10px;
+  position: fixed;
+  grid-column: 1;
+  max-height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+    .container-1 {
+      width: 50%;
+    }
+    .container-2{
+      width: 100%;
+      margin-right: 10%;
+
+    }
+
+
+/*----start of media---*/
+
+@media (max-width: 2500px){
+
+  h1{
+      font-size: 40px;
+    }
+
+  .footer {
+      max-height: 20%;
+    }
+
+  .info-text {
+      max-width: auto;
+      padding: 50px 50px 50px 50px;
+    }
+
+  #RS {
+      padding: 0px;
+      width: 30%;
+      margin: 0px 0px 0px 150px;
+    }
+
+  #chocolate-height{
+      max-height: 700px;
+    }
+}
+
+@media (max-width: 2200px) {
+    h1{
+      font-size: 50px;
+    }
+    #profile-pic{
+      height: 350px;
+      width: auto;
+    }
+}
+
+@media (max-width: 600px) {
+
+  .container {
+      display: flex;
+      flex-direction: column;
+      height: inherit;
+      width: 800px;
+    }
+
+  .container-1{
+      display: flex;
+      justify-content: center;
+      height: inherit;
+      position: relative;
+      width: auto;
+      margin-right: 300px;
+      column-fill: balance;
+    }
+
+  #main-intro{
+      position: sticky;
+      align-content: center;
+      margin: 0px -50px 0px -50px;
+    }
+
+  .container-2{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+  #blurb-width{
+      text-align: center;
+      font-size: 15px;
+      width: 300%;
+    }
+
+  h1{
+      font-size: 50px;
+      text-align: justify;
+      margin: 0px -50px 0px -50px;
+      width: auto;
+      white-space: nowrap;
+    }
+
+  p{
+      text-align: center;
+      font-size: 15px;
+      width: 800px;
+    }
+
+  #blog{
+      font-size: 20px;
+    }
+
+  #profile-pic{
+      height: 280px;
+      width: 100%;
+      margin-right: 20px;
+    }
+
+  #RS {
+      padding: 0px;
+      width: 30%;
+      align-items: center;
+      margin: 0px 0px 0px 150px;
+    }
+
+  #chocolate-height{
+      max-height: 600px;
+    }
+
+  .footer {
+      max-height: 20%;
+    }
+}
+
+/*------end of media ----*/
+}
+
+
+#text {
+  word-wrap: break-word;
+  }
+
+#burger{
+  margin-bottom: 500px;
+  margin-left: 50px;
+  padding-top: -5px;
+}
+
+#terms{
+  font-size: 10px;
+  margin-bottom: -50px;
+  padding-bottom: 10px;
+}
+
+
+ a {
+  color: #FAB2D6;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 20px;
+  font-weight: lighter;
+ }
+
+ a:hover {
+  color: #F566AD;
+  transition: color 0.3s ease;
+ }
+
+ #blog{
+  color: #433E79;
+}
+ #blog:hover {
+  color: #F566AD;
+  transition: color 0.3s ease;
+ }
+
+ .footer {
+  background: #8d89a6;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+.footer p{
+  color: pink;
+  font-family: 'Cookie', cursive;
+  font-size: 45px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.info {
+  margin-top: -100px;
+  display: inline;
+  list-style-type: none;
+  position: relative;
+  bottom: 40px;
+  color: pink;
+}
+
+}
+
+
+
+
+
+
+}
